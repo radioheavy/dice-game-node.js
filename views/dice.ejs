@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <title>Dice Guessing Game</title>
+        <link rel="stylesheet" type="text/css" href="./styling.css">
+    </head>
+    <body>
+        <div id="main_container">
+            <h1>Dice Guessing Game</h1>
+            <p>Each 5 rounds, the player with lowest score gets eliminated.</p>           
+
+            <div id="player_container"></div>
+            <h2 id="winner_text"></h2>
+            <input placeholder="Player's name" id="new_player">
+            <input value="add player" type="submit" id="submit" class="add_player">
+
+            <div id="start_border"></div>
+            <input value="start game" type="submit" id="start" class="start_game">
+
+            <div id="player_game_container"></div>
+            <div id="player_log"></div>
+
+            <a href="/reset" id="reset" class="reset_game">Reset Game</a>
+        </div>
+
+        <script src="./dice_game.js"></script>
+    </body>
+</html>

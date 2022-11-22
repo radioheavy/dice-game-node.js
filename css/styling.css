@@ -1,0 +1,147 @@
+#main_container {
+    max-width: 1140px;
+    margin: auto;
+    font-family: "Lato";
+    letter-spacing: 1px;
+}
+
+#main_container h1 {
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+#main_container p {
+    font-size: 17px;
+}
+
+.remove_margin {
+    margin-bottom: 25px;
+}
+
+#new_player {
+    padding: 9px;
+    font-size: 20px;
+    border: 2px solid rgb(188, 188, 188);
+    color: black;
+}
+
+#new_player:focus{
+    outline: none !important;
+    border: 2px solid rgb(100, 200, 100);
+}
+
+#submit {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    background-color: white;
+    margin-left: 25px;
+    border: 2px solid rgb(100, 100, 255);
+    color: rgb(100, 100, 255);
+    transition: 0.2s;
+}
+
+#submit:hover {
+    background-color: rgb(100, 100, 255);
+    color: white;
+    cursor: pointer;
+}
+
+#start {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    background-color: white;
+    display: block;
+    margin-top: 15px;
+    transition: 0.2s;
+}
+
+#start:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#player_container {
+    border-top:1px solid rgb(220, 220, 220);
+    margin-top: 20px;
+    padding-top: 25px;
+}
+
+#start_border{
+    border-top:1px solid rgb(220, 220, 220);
+    margin-top: 35px;
+}
+
+#reset{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    background-color: white;
+    margin-top: 15px;
+    border: 2px solid black;
+    color: black;
+    transition: 0.2s;
+    display: none;
+}
+
+#reset:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#player_log{
+    margin-top: 20px;
+}
+
+#player_log p {
+    margin:2px 0;
+    font-size: 15px;
+}
+
+#player_game_container div {
+    overflow: auto; /* detects the size of the children tags inside and automatically adjustes its size */
+    background-color:   rgb(220, 220, 220);
+}
+
+#player_game_container div h3 {
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 19px;
+    float: left;
+}
+
+.text_input{
+    padding: 9px;
+    font-size: 20px;
+    border: 2px solid rgb(188, 188, 188);
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.text_input:focus{
+    outline: none !important;
+    border: 2px solid rgb(100, 200, 100);
+}
+
+.submit_input{
+    text-decoration: none;
+    transition: 0.2s;
+    padding: 10px;
+    font-size: 18px;
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 10px;
+    border : 2px solid rgb(100, 100, 255);
+    color: rgb(100, 100, 255);
+}
+
+.submit_input:hover{
+    background-color: rgb(100, 100, 255);
+    color: white;
+    cursor: pointer;
+}
